@@ -1,5 +1,6 @@
 require('dotenv').config(); //Access .env file
 const { Client, IntentsBitField } = require('discord.js') //Access 'discord.js'
+const keep_alive = require('./keep_alive.js')
 
 const client = new Client({
     intents: [
